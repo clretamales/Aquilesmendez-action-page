@@ -1,5 +1,5 @@
 <div align="center">
-<h1 align="center">Hi there 👋,My name is  <a href="https://">Aquiles Mendez</a>.</h1>
+<h1 align="center">Hi there 👋,I am <a href="https://">Aquiles Mendez</a>.</h1>
 </div>
  <img src="https://i.imgur.com/2k4TaRV.png">
  
