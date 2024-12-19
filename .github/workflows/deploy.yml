@@ -1,22 +1,41 @@
-name: Deploy README to GitHub Pages
+name: Manual Deploy to GitHub Pages
 
 on:
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  build-and-deploy:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Prepare GitHub Pages content
+      # Copiar README.md a index.md antes de subir el contenido
+      - name: Prepare index.md
         run: cp README.md index.md
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # Subir el contenido como artefacto para luego desplegar
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          branch: gh-pages
-          folder: '.'
-          clean: true
-          token: ${{ secrets.GITHUB_TOKEN }}
+          path: '.'
+
+      # Desplegar a GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
