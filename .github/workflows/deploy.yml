@@ -28,6 +28,8 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+            enablement: 'deploy'
 
       # Subir el contenido como artefacto para luego desplegar
       - name: Upload artifact
