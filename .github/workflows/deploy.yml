@@ -1,0 +1,22 @@
+name: Deploy README to GitHub Pages
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Prepare GitHub Pages content
+        run: cp README.md index.md
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: '.'
+          clean: true
+          token: ${{ secrets.GITHUB_TOKEN }}
