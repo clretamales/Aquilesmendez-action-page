@@ -34,6 +34,7 @@ On my own initiative, I have broadened my skills by connecting with APIs like Go
 ![adobe Illustrator](https://img.shields.io/badge/-Illustrator-ff9a00.svg?style=for-the-badge&logo=adobe-illustrator&logoColor=white)
 ![Microsoft Office](https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white)
  ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+ ![Microsoft Excel](https://img.shields.io/badge/React-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
  ![Static Badge](https://img.shields.io/badge/react-8A2BE2)
 
 
