@@ -31,11 +31,11 @@ On my own initiative, I have broadened my skills by connecting with APIs like Go
 <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-001E36.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor="alt="photoshop")
 ![Figma](https://img.shields.io/badge/figma-%23F05033.svg?style=for-the-badge&logo=figma&logoColor=white)
+ ![REACT](https://img.shields.io/badge/React-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![adobe Illustrator](https://img.shields.io/badge/-Illustrator-ff9a00.svg?style=for-the-badge&logo=adobe-illustrator&logoColor=white)
 ![Microsoft Office](https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white)
  ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
- ![Microsoft Excel](https://img.shields.io/badge/React-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
- ![Static Badge](https://img.shields.io/badge/react-8A2BE2)
+ 
 
 
  ## 🔧 Learning Languages and Skills 🔧
